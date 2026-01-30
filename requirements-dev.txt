@@ -1,0 +1,19 @@
+Flask==3.0.0
+Werkzeug==3.0.1
+pytest==7.4.3
+pytest-cov==4.1.0
+```
+
+**4. Commit**
+
+✅ **PRONTO! Arquivo 6 criado!**
+
+---
+
+### **ARQUIVO 7: ATUALIZAR `README.md`**
+
+**Esse você já tem, só precisa EDITAR:**
+
+**1. Vá em:**
+```
+https://github.com/PauloRamos38/flask-api-docker-cicd/blob/main/README.md
