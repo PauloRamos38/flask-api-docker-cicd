@@ -14,6 +14,7 @@ API REST simples em Flask demonstrando práticas modernas de DevOps: containeriz
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Tecnologias](#tecnologias)
 - [Pré-requisitos](#pré-requisitos)
+- [Estrutura do Projeto](#estrutura-do-projeto)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Endpoints](#endpoints)
@@ -61,7 +62,41 @@ Antes de começar, você precisa ter instalado:
 
 ---
 
-## 🚀 Instalação
+## � Estrutura do Projeto
+
+```
+flask-api-docker-cicd/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml                 # Pipeline CI/CD
+│       └── python-publish.yml     # Build para PyPI
+├── app/
+│   ├── main.py                    # Aplicação Flask
+│   └── requirements.txt           # Dependências da app
+├── tests/
+│   ├── __init__.py                # Inicialização do pacote
+│   └── test_main.py               # Testes unitários
+├── .gitignore                     # Git ignore
+├── docker-compose.yml             # Orquestração Docker
+├── Dockerfile                     # Container da app
+├── LICENSE                        # Licença MIT
+├── README.md                      # Este arquivo
+└── requirements-dev.txt           # Dependências de desenvolvimento
+```
+
+**Descrição dos arquivos principais:**
+
+- **`app/main.py`** - Código da API Flask com todos os endpoints
+- **`app/requirements.txt`** - Dependências da aplicação (Flask, Werkzeug)
+- **`tests/test_main.py`** - Suite de testes com pytest
+- **`Dockerfile`** - Multi-stage build otimizado
+- **`docker-compose.yml`** - Configuração dos containers
+- **`requirements-dev.txt`** - Dependências de dev (pytest, pytest-cov, flake8)
+- **`.github/workflows/ci.yml`** - Pipeline CI/CD automático
+
+---
+
+## �🚀 Instalação
 
 ### Opção 1: Executar Localmente (sem Docker)
 ```bash
