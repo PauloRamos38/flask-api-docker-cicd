@@ -1,6 +1,6 @@
 # 🚀 Flask API with Docker & CI/CD
 
-[![CI/CD Pipeline](https://github.com/PauloRamos38/flask-api-docker-cicd/actions/workflows/ci.yml/badge.svg)](https://github.com/PauloRamos38/flask-api-docker-cicd/actions/workflows/ci.yml)
+[![CI/CD Pipeline](https://github.com/PauloRamos38/flask-api-docker-cicd/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/PauloRamos38/flask-api-docker-cicd/actions/workflows/ci.yml)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![Docker](https://img.shields.io/badge/docker-ready-brightgreen.svg)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
