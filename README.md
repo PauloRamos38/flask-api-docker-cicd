@@ -4,6 +4,7 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![Docker](https://img.shields.io/badge/docker-ready-brightgreen.svg)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Visitantes](https://komarev.com/ghpvc/?username=PauloRamos38&repo=flask-api-docker-cicd&color=blue)](https://github.com/PauloRamos38/flask-api-docker-cicd)
 
 API REST simples em Flask demonstrando práticas modernas de DevOps: containerização com Docker, testes automatizados e CI/CD com GitHub Actions.
 
